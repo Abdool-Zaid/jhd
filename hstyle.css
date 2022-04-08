@@ -1,0 +1,9 @@
+body {
+  color: rgb(255, 238, 0);
+}
+a:link {
+  text-color: yellow;
+}
+h1 {
+  text-align: center;
+}
