@@ -1,9 +1,42 @@
 body {
-  color: rgb(255, 238, 0);
+  color: rgb(255, 204, 0);
+
+  color: #ffffff;
+
+  text-shadow: 0 -1px 4px rgb(185, 159, 159), 0 -2px 10px #ff0,
+    0 -10px 20px #ff8000, 0 -18px 40px #f00;
+  color: #ffffff;
+  font-family: Georgia, serif;
+  font-size: 32px;
+  nav-right: auto;
 }
-a:link {
-  text-color: yellow;
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  position: sticky;
+  top: 0;
 }
-h1 {
+
+ul.topnav li {
+  float: left;
+}
+ul.topnav li a {
+  display: block;
+  color: rgba(255, 252, 246, 0.958);
+  padding: 10px 10px;
+  text-decoration: none;
+  float: left;
+  font-size: 24px;
+  border-left: 1px solid rgb(187, 187, 187);
+}
+.center {
   text-align: center;
+}
+.btn {
+  display: block;
+  max-width: 60px;
+  margin: 20;
 }
