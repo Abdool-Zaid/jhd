@@ -1,0 +1,73 @@
+body {
+background-image: url(./toronto-3112508_1280.jpg);filter: blur(  );
+
+}
+
+.title {
+  margin-top: 300px;
+  text-align: center;
+  color: rgb(21, 10, 10);
+  font-family: sans-serif;
+}
+.bg-image {
+  filter: blur(200px);
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+}
+.tile {
+  width: 200px;
+  float: left;
+  padding: 100px;
+}
+
+.content {
+  margin-left: 150px;
+}
+
+.icon {
+  font-size: 200px;
+  color: rgb(14, 11, 43);
+  border-radius: 200px;
+}
+
+h3 {
+  font-size: 30px;
+  font-style: inherit;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman";
+}
+h2 {
+  font-size: 70px;
+  color: rgb(27, 10, 40);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  margin-left: 0px;
+}
+#type1 {
+  font-size: 20px;
+  margin-top: -50px;
+  font-weight: bold;
+  font-family: monospace;
+  color: rgb(27, 10, 40);
+}
+.toronto-3112508_1280.jpg {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -100%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+}
