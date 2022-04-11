@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background-image: url("bg.jpg");
   background-blend-mode: darken;
@@ -29,3 +30,20 @@ image {
   margin-left: auto;
   margin-right: auto;
 }
+=======
+body{
+    background-image: url("contact6.jpg");
+    background-color: black;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+    
+  
+
+
+
+
+
+>>>>>>> team-html
